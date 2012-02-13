@@ -10,13 +10,13 @@ Features
 * Upload backups to FTP
 * Handles foreign keys and stored procedures
 
-To get started -- checkout https://github.com/bkuhl/Smart-MySQL-Backup!
+FAQ: https://github.com/bkuhl/Smart-MySQL-Backup/wiki/FAQ
 
 
 Versioning
 ----------
 
-For transparency and insight into our release cycle, and for striving to maintain backward compatibility, Bootstrap will be maintained under the Semantic Versioning guidelines as much as possible.
+For transparency and insight into our release cycle, and for striving to maintain backward compatibility, Smart MySQL Backup will be maintained under the Semantic Versioning guidelines as much as possible.
 
 Releases will be numbered with the follow format:
 
