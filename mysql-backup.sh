@@ -1,7 +1,9 @@
 #!/bin/bash
-# MySQL database backup (databases in separate files) with daily, weekly and monthly rotation
-# Added to GitHub by Ben Kuhl - https://github.com/bkuhl/MySQL-Backup
+# Smart MySQL backup
+# Added to GitHub by Ben Kuhl - https://github.com/bkuhl/Smart-MySQL-Backup
 # - Version 1.0
+#
+#
 #
 # Sebastian Flippence (http://seb.flippence.net) originally based on code from: Ameir Abdeldayem (http://www.ameir.net)
 # You are free to modify and distribute this code,
