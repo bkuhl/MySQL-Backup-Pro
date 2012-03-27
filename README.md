@@ -1,4 +1,4 @@
-Smart MySQL Backup
+MySQL Backup Pro
 =================
 
 Features
@@ -10,7 +10,7 @@ Features
 * Upload backups to FTP
 * Handles foreign keys and stored procedures
 
-FAQ: https://github.com/bkuhl/Smart-MySQL-Backup/wiki/FAQ
+FAQ: https://github.com/bkuhl/MySQL-Backup-Pro/wiki/FAQ
 
 
 Versioning
@@ -36,7 +36,7 @@ Bug tracker
 
 Have a bug? Please create an issue here on GitHub!
 
-https://github.com/bkuhl/Smart-MySQL-Backup/issues
+https://github.com/bkuhl/MySQL-Backup-Pro/issues
 
 
 Authors
