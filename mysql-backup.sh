@@ -1,6 +1,6 @@
 #!/bin/bash
-# Smart MySQL backup
-# Added to GitHub by Ben Kuhl - https://github.com/bkuhl/Smart-MySQL-Backup
+# MySQL Backup Pro
+# Added to GitHub by Ben Kuhl - https://github.com/bkuhl/MySQL-Backup-Pro
 # - Version 1.0
 #
 #
