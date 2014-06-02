@@ -107,15 +107,14 @@ if  [ $MAIL = "y" ] && [ $EMAILSENDON = $EMAILTODAY  ]; then
 	BODY="MySQL backup is ready"
 	ATTACH=`for file in ${BACKDIR}/*${DATE}.${EXT}; do echo -n "-a ${file} ";  done`
  
-	echo "${BODY}" | mutt -s "${SUBJECT}" $ATTACH $EMAILS
+	echo "${BODY}" | mutt -s "${SUBJECT}" $ATTACH -- $EMAILS
  
 	echo -e "MySQL backup has been emailed"
 fi
  
 if  [ $FTP = "y" ]; then
 	echo "Initiating FTP connection..."
-	cd $BACKDIR
-	ATTACH=`for file in ${BACKDIR}/*${DATE}.${EXT}; do echo -n -e "put ${file}\n"; done`
+	ATTACH=`for file in ${BACKDIR}/*${DATE}.${EXT}; do echo -n -e "put ${file} $(basename "$file")\n"; done`
  
 	ftp -nv <<EOF
 open $FTPHOST
